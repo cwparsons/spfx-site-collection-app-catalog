@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "site-app-catalog-creator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/SiteCollectionAppCatalogCreator/SiteCollectionAppCatalogCreatorWebPart.js",
+          "manifest": "./src/webparts/SiteCollectionAppCatalogCreator/SiteCollectionAppCatalogCreatorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SiteCollectionAppCatalogCreatorWebPartStrings": "lib/webparts/SiteCollectionAppCatalogCreator/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

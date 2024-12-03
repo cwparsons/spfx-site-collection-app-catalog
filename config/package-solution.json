@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Site collection app catalog creator",
+    "id": "40f82f8f-846d-44d6-a6e6-73c3311fe047",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Christopher Parsons",
+      "websiteUrl": "https://cwparsons.ca",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-site-app-catalog.sppkg"
+  }
+}
